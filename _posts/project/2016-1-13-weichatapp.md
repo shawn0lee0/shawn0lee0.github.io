@@ -6,8 +6,6 @@ description: 不就是个App Streaming么~
 ---
 
 
-# 微信应用号设计思考
-
 ## 核心价值观
 
 

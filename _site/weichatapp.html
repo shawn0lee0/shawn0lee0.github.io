@@ -5,7 +5,7 @@
     * Author:         BeiYuu
     -->
     <meta charset="utf-8" />
-    <title>OverAPI | shawn0lee0博客</title>
+    <title>微信应用号设计思考 | shawn0lee0博客</title>
     <meta name="author" content="BieYuu" />
     <meta name="renderer" content="webkit">
     <meta name="description" content="Lee's Blog" />
@@ -43,41 +43,57 @@
 
 <div id="content">
     <div class="entry">
-        <h1 class="entry-title"><a href="/overapi-cheatsheet" title="OverAPI">OverAPI</a></h1>
-        <p class="entry-date">2012-09-22</p>
-        <p><a href="http://overapi.com" title="OverAPI - Collecting all the cheat sheets">OverAPI</a>是一个从我自己的需求出发，搭建起来的项目。项目结构很简单，将常用语言的API很扁平的展现出来，方便翻阅和查找。</p>
-
-<p>Chrome插件下载：<a href="https://chrome.google.com/webstore/detail/oedodeocfdeegliepeeoieemhdgoijod?hl=zh-CN" title="All Cheat Sheets">All Cheat Sheets</a></p>
-
-<p><a href="http://overapi.com" title="OverAPI - Collecting all the cheat sheets" target="_blank"><img src="/images/overapi/overapi.jpg" alt="OverAPI"></a></p>
-
-<p>生活在继续，遇到的人和事越来越繁杂，于是，满目的秋意、愉悦的欢叫，都像微风一样，带来的是美妙的简单。</p>
-
-<p>我们总想拥有一切，可一切到底有多少，就像诺兰的处女作<a href="http://movie.douban.com/subject/1397546/" title="Following">Following</a>中表现的一样，一些物品只有在失去时才知道他存在过。</p>
-
-<p>人生有目标才能前进，无论这个目标能否实现，OverAPI的目标是拥有一切，如果你有兴趣一起实现，可以联系我。</p>
-
-<p>现在已经有：</p>
+        <h1 class="entry-title"><a href="/weichatapp" title="微信应用号设计思考">微信应用号设计思考</a></h1>
+        <p class="entry-date">2016-01-13</p>
+        <h2>核心价值观</h2>
 
 <ul>
-<li><a href="http://overapi.com/python/">Python Cheat Sheet</a></li>
-<li><a href="http://overapi.com/jquery/">jQuery Cheat Sheet</a></li>
-<li><a href="http://overapi.com/nodejs/">NodeJS Cheat Sheet</a></li>
-<li><a href="http://overapi.com/php/">PHP Cheat Sheet</a></li>
-<li><a href="http://overapi.com/ruby/">Ruby Cheat Sheet</a></li>
-<li><a href="http://overapi.com/javascript/">Javascript Cheat Sheet</a></li>
-<li><a href="http://overapi.com/actionscript/">ActionScript Cheat Sheet</a></li>
-<li><a href="http://overapi.com/css/">CSS Cheat Sheet</a></li>
-<li><a href="http://overapi.com/git/">Git Cheat Sheet</a></li>
-<li><a href="http://overapi.com/svn/">SVN Cheat Sheet</a></li>
-<li><a href="http://overapi.com/mysql/">MySQL Cheat Sheet</a></li>
-<li><a href="http://overapi.com/regex/">Regex Cheat Sheet</a></li>
-<li><a href="http://overapi.com/linux/">Linux Cheat Sheet</a></li>
-<li><a href="http://overapi.com/html/">HTML Cheat Sheet</a></li>
-<li><a href="http://overapi.com/html-dom/">HTML-DOM Cheat Sheet</a></li>
-<li><a href="http://overapi.com/mod_rewrite/">mod_rewrite Cheat Sheet</a></li>
+<li><p>一切以用户价值为依归---挑战不是在于说我们再多做多少事情，而是我们能够挡掉多少事情。</p></li>
+<li><p>一是没有特权的白名单；</p></li>
+<li><p>二是如果这个需求普遍，就是有很多人有很强的需求，那么系统应该有一个规则来释放这个需求，而不是通过找关系或者是白名单这样的方式来满足少数人的需求，这不在我们产品鼓励的方向中。</p></li>
+<li><p>绝不允许骚扰用户，绝不允许把用户不需要的东西推给用户。</p></li>
+<li><p>善良比聪明更重要</p></li>
+<li><p>让创造发挥价值———“释放创造力”</p></li>
+<li><p>让真正有价值的东西发挥出它的价值。</p></li>
+<li><p>好的产品是用完就闪的</p></li>
+<li><p>怎么样更高效率帮助用户完成任务，而不是让用户在微信里面永远都有处理不完的事情</p></li>
+<li><p>让商业化存在于无形之中</p></li>
+<li>只有你的产品产生了价值才能带来回报</li>
 </ul>
 
+
+<hr />
+
+<h2>用户の窘境</h2>
+
+<p>现如今应用开发者所面临的最大问题就是需要能正确使用他们的应用用户。据调查显示，用户在使用移动设备时，80%的时间都花在应用程序上，且平均每个用户安装48个应用。在Google Play和App Store上，应用数量远超100万，而66%的用户打开应用的次数只有1至10次。这就意味着即使应用开发者能够成功地将自己所开发的产品安装到用户设备上，却也面临着被用户遗忘的风险，更糟糕的则是被用户卸载。</p>
+
+<h2>交互猜想</h2>
+
+<p>新版本的微信取消了首页下拉发送“小视频”功能。</p>
+
+<p>个人猜想：用户通过下拉选择关注过的应用号，比如“Runmap” 打开应用，输入图片--返回输出轨迹向导，上推首页栏，回归微信主页面。整个流程极简！</p>
+
+<h2>准备工作</h2>
+
+<ul>
+<li><a href="https://developers.google.com/app-indexing/">Google app-indexing</a> <code>搜索仅存在应用程序上的内容</code></li>
+<li><a href="https://developers.google.com/web/fundamentals/getting-started/principles/?hl=en">Google Principles of site design</a></li>
+<li><a href="https://github.com/google/WebFundamentals">Source</a></li>
+<li><a href="https://www.udacity.com/courses/cs256?_ga=1.196041580.131882666.1452615000">Courses-Mobile Web Development Building Mobile Web Experiences</a></li>
+<li><a href="https://aws.amazon.com/cn/appstream/">Amazon AppStream</a></li>
+<li>消除设备限制：无设备的 GPU、CPU、内存或物理存储限制</li>
+<li>支持多种平台：支持一个新设备，只需编写一个客户端，用以连接到您的应用程序。</li>
+<li>更新快速简单：可以升级所有客户的应用程序，而客户却什么都不用做。</li>
+<li>瞬间启动：不必再等待大文件下载和费时的安装过程。</li>
+<li>更完善的安全性：应用程序以二进制方式安全存储于 AWS 数据中心</li>
+<li><a href="http://docs.aws.amazon.com/appstream/latest/developerguide/appstream-get-started.html">Getting Started with Amazon AppStream</a></li>
+</ul>
+
+
+<p>小结：WEBAPP的增强版！</p>
+
+<p><img src="http://photocdn.sohu.com/20151123/mp43745856_1448281470629_1_th.jpeg" alt="" /></p>
 
     </div>
 
