@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《程序员编程思维训练》读书笔记1
+title: 《程序员编程思维训练》Day0
 category: opinion
 description: 快速学习|对大脑编程
 ---
@@ -27,10 +27,33 @@ description: 快速学习|对大脑编程
 
 + [开智正典：读书与心智](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=208149150&idx=1&sn=dcf7a79513ec579375ae706fb4c9ee3e&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
 
++ 笔记思考
+ + 读了多少？
+ + 有什么收获和疑问？
+ + 书中的内容和自己有什么联系？
+ + 哪些拓宽了自己的知识？
+ + 哪些能促进自己的行动？
 
-# 对大脑编程w0d0
+# 工具
+
++ Mindmanager
++ [百度脑图](http://naotu.baidu.com/home)
+ - [支持输出格式]()
+  ![支持输出格式](http://i8.tietuku.com/7368576fd53d43c1.jpg)
+ - 支持输入格式：
+   - KityMinder 格式(.km）
+   - 大纲文本(.txt)
+   - Markdown/GFM 格式(.md)
+   - Freemind 格式(.mm) 
+   - XMind 格式(.xmind)
+   - MindManager 格式(.mmap)
+  
+ 
+# 对大脑编程Day0
 
 
+> 范围：第1章
+>
 | 开始 | 结束 |
 |--------|--------|
 |  2016年1月15日23:18:12      |    2016年1月16日01:29:38    |
