@@ -66,13 +66,15 @@ description: 调试大脑|偏见
 类似情况还有微博、微信群、BBS贴等，一旦彼此观点相左的大跌眼镜。就会出现谩骂、攻击的声音。
 这种人我们可以称为[“喷子”](http://mp.weixin.qq.com/s?__biz=MzA5NTMxOTczOA==&mid=200403116&idx=1&sn=f4c0992e0e29013a2418a60f77dea83b&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
 
+
+![](http://i4.tietuku.com/995d1b7e7078138fs.jpg)
+
 > 喷子思维的另一个影响因素是“万能药思维”—我们潜意识认为所有问题的解决方案是一样的。总之，当你有一把钥匙，你看什么东西长得都像锁。
 
 “在我们那个年代，这种事情打个电话，送点礼就可以搞定了~”
 
 你在一个问题上取得了成功，并不代表你的“成功经验”具有普适性。因此在你拿着自己的“成功经验”去喷别人之前，先搞清楚：我们两面临的是同样的问题吗？（在一个频道不）
 
-![](http://mmbiz.qpic.cn/mmbiz/As7mscS0UOCGRZbvicapicGcABtMjvUQKguEGcLGwjeUy4Meicoe0Hibl6LCZ7vacPSRAVGKW1UERqX13rXEnG7m1Q/640?tp=webp&wxfrom=5&wx_lazy=1)
 > 从不同的阶级、不同的视角来审视同一个东西，会看到非常复杂的多面性。
 
 试着放低自己,勿要从"上帝视角"讨论问题.
