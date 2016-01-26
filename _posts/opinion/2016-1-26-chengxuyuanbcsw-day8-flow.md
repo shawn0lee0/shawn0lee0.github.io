@@ -47,10 +47,15 @@ _ _ _
 + 冥想（20分钟）练习
  - 专注呼吸
  - 放空自己
+   - 忘记时间，在意倒计时你会陷入L模型
+   - 忘记过失，不要思考还有什么没做好
+   - `青山白云父，白云青山儿，白云终日倚，青山总不知。`
  - 感受呼吸
-   -  感受气体体内流动状态
+   -  感受气体体内流动状态 `眼观鼻，鼻观口，口观心`
    -  分段式呼出气体
    -  切换至自由呼吸   
+
+
 
 + 思想发酵
 
@@ -107,6 +112,10 @@ _ _ _
 	- > Marshall Goldsmith发表在《Bloomberg Businessweek》的文章：[Preparing Your Professional Checklist](http://www.marshallgoldsmithlibrary.com/cim/articles_print.php?aid=486)
 
 ## 行动手册
+
+`慈悲出祸害，方便出下流`
+
+对自己狠一点！
 
 + 关闭社交媒体，必要情况断网、断电话线；
 + 汇集问题列表，集中问题处理；
