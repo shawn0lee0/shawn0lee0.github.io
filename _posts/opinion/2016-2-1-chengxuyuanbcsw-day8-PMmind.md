@@ -14,10 +14,7 @@ description: 产品狗大脑调教手册
 
 _ _ _
 
-## 有感
-
-经过14天的阅读体验，汇总成文以飨读者。
-《程炼》此书阐述的问题有：
+经过14天的阅读体验，汇总成文以飨读者。《程炼》此书阐述的问题有：
 
 + 大脑原理与bug,鼓励开发R思维
 + 活用敏捷方法，不要追求形式；
@@ -59,7 +56,7 @@ _ _ _
 
 + 新皮层：最后被进化出来的部分，包括左右两个脑半球，控制思维、语言、想象力等所有的“高级”功能。（L/R型思维）
 
-![图](http://i4.tietuku.com/93c4a0fcce67bb43.jpg)
+![图 文中有彩蛋](http://upload-images.jianshu.io/upload_images/982375-3e421f095a906e7d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
@@ -96,7 +93,7 @@ _ _ _
 
 ##### 认清你自己的阶段水平
 
-![新手到专家](http://i4.tietuku.com/a76b69e92c989b3e.jpg)
+![新手到专家](http://upload-images.jianshu.io/upload_images/982375-4c185e1218c198ea.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 > 精通者，善于充分利用思考与反馈
@@ -111,7 +108,7 @@ _ _ _
 | 需求提炼     | 新手 | 知道自己不知道什么，比什么都不知道要好 |
 | 文档输出     | 新手 | 模仿 |
 | 原型设计     | 新手 | 先手绘原型再工具 |
-| 数据分析    | 高新 | Python Data课程 ,统计下原理|
+| 数据分析    | 高新 | Python Data课程 ,统计学原理|
 | 逻辑思考     | 胜任 | 提高阅读写作频率，文章内容干燥度，观察文章分享、评论数量 |
 | 沟通能力     | 胜任 | 我期望的结果是怎样的？我需要对方提供怎样的协助才能实现期望的结果？|
 | 洞察力     | 高新 | [正念](https://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=204277318&idx=1&sn=ba7f9bf84dbb9275648c4416cc867298&scene=1&srcid=12315mHf4n3Hkl6Pf9pDKn4Y&pass_ticket=L%2F2i7H4GSEBCmt20RHwWtp%2BCPJjRijCOocCxfDvC4zkIzOc5xDQgNfTnN4ee%2FdIm#rd) ,向内探求生命的本质 |
@@ -125,7 +122,7 @@ _ _ _
 + 主题阅读 （提倡不要把一本书从头读到尾）
 
 
-![](http://i13.tietuku.com/6fa44c82ca386d1cs.jpg)
+![](http://upload-images.jianshu.io/upload_images/982375-633b4cd47202f8f8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
   -  关注自己的技能圈
   - （总15本）确保哪些是和你的主题相关，并就你的主题建立清楚的概念
@@ -139,7 +136,7 @@ _ _ _
 ##### SQ3R阅读方法
 
 
-![SQ3R方法](http://i13.tietuku.com/04e27f23002dbcbe.jpg)
+![SQ3R方法](http://upload-images.jianshu.io/upload_images/982375-0d4788d6fb037938.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 清楚的认知到自己情况，找到某一技能薄弱点突破它，专注，攻克；
 
@@ -208,7 +205,25 @@ _ _ _
 
 + 再返回思考修改后的内容是我需要的吗？重复该模型，执行
 
-#### 刻意练习|主动求虐
+#### [类比思维：清晰表达一个观点](http://mp.weixin.qq.com/s?__biz=MzA5NTMxOTczOA==&mid=201711782&idx=1&sn=96a0f36d3019a0fedaf935bc63fc7572&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
+>使用类比—你先推测出对方论断“背后的理论”是什么，然后问自己“如果这个理论成立，会出现哪些显而易见的不合常规的现象？”然后这种现象就可以拿来当做类比。
+
++ 时间序列的类比
+ +  `电子书什么的一点也不爽`
+ +  类比`在造纸术刚出来时，也有人说纸书什么的不如绢帛来的爽~`
++ 用对方熟悉的事物做类比
+ + `所谓『智能硬件』是什么样的体验`
+ + 类比`在你还在用诺基亚3100的时候，有些人在用iPhone`
++ 用类比转移到客观视角
+ +  `支付宝的生活圈晒视频是什么感觉`
+ +  类比：`在银行取钱时候，看到两个大妈在撒泼是什么感觉？`
++ 引入比较对象
+ + `支付宝做社交，简直就是玩笑~`
+ + 类比：`支付宝早期解决的个人与商家的支付问题，当人人都有支付宝后，你和朋友间借款转账试问还要跑到ATM机去吗？` 
+
+>很多时候你无法让别人理解你，只是因为你还没有让你的大道理足够“显而易见”。而一个重要的方法就是有效类比。
+
+### 刻意练习|主动求虐
 + [为什么你有10年经验，但成不了专家？](http://mp.weixin.qq.com/s?__biz=MzA5NTMxOTczOA==&mid=208796062&idx=1&sn=a700d18b13ea165431ea66e0056efe58&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
 + [深度练习](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=402110590&idx=1&sn=761e30c58df8db57245ee6092e100017&3rd=MzA3MDU4NTYzMw==&scene=6#rd)，你是否有意挑战新高度来训练自己，积累更多技能，有更多心理、情绪和行为控制来应对更多局面。
 
@@ -237,7 +252,7 @@ _ _ _
 
 #### 隐喻|段子手
 
-![](http://i4.tietuku.com/67ceed5c6468e813.jpg)
+![](http://upload-images.jianshu.io/upload_images/982375-c6a345c0035137e9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 还记得文章开头，那幅图片的文字吗？映像最深的是“开智学堂”还是“鸭脖子”？
 So，好的段子应该是视觉化（画面感）的~~~
 
@@ -252,15 +267,17 @@ So，好的段子应该是视觉化（画面感）的~~~
 + 平湖秋月
 + 断桥残雪
 
-![杭州西湖 图片来源：陈饰玻璃工坊](http://i4.tietuku.com/c7a36e649dc66952.jpg)
+![杭州西湖 图片来源：陈饰玻璃工坊](http://upload-images.jianshu.io/upload_images/982375-cbf155d8c233eb2c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-`人生的减法：换掉乳牙是为了新牙；手指手上了才会认知体验它的存在；迷路了，才看到不一样的风景；人生的减法只是加法的一横罢了`
+`人生的减法：换掉乳牙是为了新牙；手指受伤了才会认真体验它的感受；迷路了，才看到不一样的风景；人生的减法只是加法的一横罢了`
+
+`老爷子练武十分刻苦，冬天坐火车去西伯利亚，穿着日本相扑的内裤，光着身子，左手拿着大茶缸，冰镇的酸梅汤，右手拿着大蒲扇，迎着风口唱：“这就是二，说也说不清楚…为此练得一身好本事，大冬天从湖上过去连个水星都不沾；曾白天练武，晚上为了防备敌人偷袭，装成植物埋伏在后院，半夜坏人来了，有顶着铁桶的，拿梯子的；`
 
 #### 知识管理
-![图片来源Python大妈：Zoom.quiet](http://i4.tietuku.com/d9121b31b411c9e1.jpg)
+![图片来源Python大妈：Zoom.quiet](http://upload-images.jianshu.io/upload_images/982375-0bb1e43de85b65d1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 获取知识最大的阻碍并不是无知，而是对知识的幻觉—觉得自己很懂，觉得习惯了的就是正确的。
 整合资源越来越迅速的今天，与其守着自己有限的资源逡巡不前，不如敞开胸怀，**让自己的知识积累充分地与世界连接，与更多的富有创新意识的头脑进行碰撞，进而产生强大的能量。**
-![图片来源Python大妈：Zoom.quiet](http://i4.tietuku.com/78dc34bc698ba7c4.jpg)
+![图片来源Python大妈：Zoom.quiet](http://upload-images.jianshu.io/upload_images/982375-fa5a918b38b9a61a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 + **开源自己**
