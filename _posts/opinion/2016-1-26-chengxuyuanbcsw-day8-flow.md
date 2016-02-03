@@ -2,7 +2,7 @@
 layout: post
 title: 《程序员编程思维训练》Day8
 category: opinion
-description: 聚焦|知识管理|优化情境
+description: 心流|知识管理|聚焦
 ---
 
 
@@ -10,7 +10,7 @@ description: 聚焦|知识管理|优化情境
 > 
 | 开始| 更新（碎片） |
 |--------|--------|
-|   2016年1月26日10:20:22 | 2016年1月26日16:56:30   |
+|   2016年1月26日10:20:22 | 2016年2月3日15:41:17   |
 
 > 
 + 笔记思考
@@ -21,30 +21,36 @@ description: 聚焦|知识管理|优化情境
  + 哪些能促进自己的行动？
 
 
-> + 如何提升注意力
+> + 为什么你的注意力那么短？
 > + 如何管理知识
 > + 如何优化当下情境
 
 _ _ _
 
 
-`信息≠知识，只有经过大脑编译的信息才算知识！`
 
-# 注意力-心流体验
 
-+ 真正的注意力，换做心流体验会更合适些
+# 注意力
+
+## [大脑喜欢偷懒](http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=400345622&idx=1&sn=6e86432023d5838b0938525a2663ebfd&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
+
+人类的大脑，重量不到人体重的2%，却耗费了人体20%的卡路里，也就是每天三根香蕉的能量。由于每次脉冲需要很多的能量，大脑的总能量消耗相对来说还是非常低的。考虑到每次放电的能量耗散以及大脑中的神经元数量，每个神经放电率应该低于每秒钟一次。然而在病人细胞里检测到的神经元每秒放电成百上千次。这意味着一**小部分的神经元消耗了分配给大脑的能量的大部分。而剩下的神经元可能每分钟只能放电几次，或者更少。这种能量分配方式限制了每次参与活动的皮质神经元的数量——总的来说，活跃的神经元不超过1%。**这也许能解释为什么我们的注意力总是这么有限——我们的大脑只能分配这么点神经放电。
+
+**大脑是可以自动平衡低活动水平下的庞大存储能力 and 保守的能量预算
+**
+
+## 心流体验
 
 > 阳志平：最便宜的自我修炼是阅读；最容易产生心流体验的娱乐是写作。富人用钱买心流，超一流作家用心流买青史留名。读一本书的最好方法是开始读一本书；写一本书的最好方法是开始写一本书。开始亲近并努力成为那些解锁者吧！
 
   - [如何提高创作型任务的效率？](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=401837951&idx=1&sn=80cb6dd762e40e252017286c7675b640&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
   - [17个心流触发器](http://mp.weixin.qq.com/s?__biz=MjM5NTAxMDU0MA==&mid=210363746&idx=1&sn=93ddd58c1c416d561fd9c2b3d9f9b273&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
 
-不要打扰程序员！！！
 ![不要打扰程序员](http://upload-images.jianshu.io/upload_images/982375-a18db206cb91745d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-## 心流训练-前篇
+### 心流训练-前篇
 
-+ 冥想（20分钟）练习
+#### 一、冥想
  - 专注呼吸
  - 放空自己
    - 忘记时间，在意倒计时你会陷入L模型
@@ -55,19 +61,34 @@ _ _ _
    -  分段式呼出气体
    -  切换至自由呼吸   
 
+#### 二、[正念](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=204277318&idx=1&sn=ba7f9bf84dbb9275648c4416cc867298&3rd=MzA3MDU4NTYzMw==&scene=6#rd)
 
+>正念，正是一种跨越时间的存在。此刻，既永恒。
+>正念，是全心投入，专注于当 下的劳作、学习、生活和体验中，寻找生命的意义。「当下」整合了过去现在和未来，是生命的意义和全部。
+>正念本身，不关乎目的，只关乎存在。
 
-+ 思想发酵
+请体验：试着以新奇的眼光感受这全然的一刻。就好像你第一次来到这里。你不知道这是哪个年代，也不知道自己在什么地方。你对所有的一切都感到好奇。 仔细观察你看到的任何东西：一盘植物、一片绿叶、一本书、台灯......观察他们的形状、细节、颜色，就像你第 一次看到一样。
 
+**态度：**
+1. 不评价
+2. 耐心
+3. 接纳
+4. 信任
+5. 不强求
+6. 专注
 
+>全心投入地关注每一个呼吸，这是专注; 关注而不控制自己的呼吸，是不强求; 当念头或情绪升起的时候，接纳而不评价；耐心地坐着，感受每一个时刻的丰盛，相信美好的事情会自然地发生，这是耐心和信任。
+
+#### 三、发酵
 
 史蒂文·约翰逊（Steven Johnson）在[《伟大创意的诞生——创新自然史》](http://book.douban.com/subject/25958751/)写到:
 
 >“绝大多数的伟大创意最初都是以一种不完整、不全面的形式出现的。它们隐藏着某种深奥的种子，但缺乏一个关键元素，让灵感转变成真正有威力的东西。”
 
+
 灵感是创新之根本，若让灵感转变为创新方案，则需要“连接”。所谓“连接”，就是存在于大脑中若隐若现的想法与外部环境的种种组合，在时间这个容器中不断发酵，最终会因为某一个偶然的契机，形成一个具有整合体系的方案。
 
-问题不只有唯一解，`Zoom.Quiet:这个问题有三种解决方案，一、二、三……`
+问题永远不只有唯一解，`Zoom.Quiet:这个问题有三种解决方案，一、二、三……`
 
 + 思考三种方案，并在意识中发酵它们；
 + 理清“发酵“、“拖延
@@ -76,13 +97,13 @@ _ _ _
    - if继续:痛苦加倍; 
    - else:分散注意力 then 无动于衷；
 
-## 知识管理
+# 知识管理
 
 
-![](http://upload-images.jianshu.io/upload_images/982375-b49a11c8819e657d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![](http://upload-images.jianshu.io/upload_images/982375-9b96324670a2626d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![图片来源Python大妈：Zoom.quiet](http://upload-images.jianshu.io/upload_images/982375-b49a11c8819e657d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![图片来源Python大妈：Zoom.quiet](http://upload-images.jianshu.io/upload_images/982375-9b96324670a2626d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-`图片来源Python大妈：Zoom.quiet`
+
 
 
 获取知识最大的阻碍并不是无知，而是对知识的幻觉—觉得自己很懂，觉得习惯了的就是正确的。
@@ -94,7 +115,7 @@ _ _ _
  + 照亮自己
  + 让蜡流动
 
-## 选择性关注
+# 聚焦关注
 
 
 >大脑平均中断成本约20分钟，才能回到之前思维状态
@@ -105,27 +126,24 @@ _ _ _
 + 用工具记录清单而不是大脑
 
  - [李叫兽：写文案前，记得列个清单](http://mp.weixin.qq.com/s?__biz=MzA5NTMxOTczOA==&mid=400232098&idx=1&sn=12e1ab4f5374592890d6f470af8b04dd&3rd=MzA3MDU4NTYzMw==&scene=6#rd) 
- - >[开智 Helen Li](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=400374089&idx=1&sn=9e6c42413a2ca82dac852d17fd6439d8&3rd=MzA3MDU4NTYzMw==&scene=6#rd)：清单是解放思维、提高效率、实现持续改进的极为有效的工具。芒格、 Marshall Goldsmith都在用。如何善用清单，推荐3篇文章
+ - [开智 Helen Li](http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&mid=400374089&idx=1&sn=9e6c42413a2ca82dac852d17fd6439d8&3rd=MzA3MDU4NTYzMw==&scene=6#rd)：清单是解放思维、提高效率、实现持续改进的极为有效的工具。
+ - `清单中重要的永远只有一个`
 
-	- > 《清单革命》的作者Atul Gawande于2007年发表在《New Yorker》发表在《New Yorker》的长文：The Checklist
-	- > 《哈佛商业评论》的Blog文章：[What Sort of Checklist Should You Be Using?](https://hbr.org/2010/02/draftwhat-sort-of-checklist-sh.html)
-	- > Marshall Goldsmith发表在《Bloomberg Businessweek》的文章：[Preparing Your Professional Checklist](http://www.marshallgoldsmithlibrary.com/cim/articles_print.php?aid=486)
+# 行动手册
 
-## 行动手册
 
-`慈悲出祸害，方便出下流`
-
-对自己狠一点！
+对自己狠一点！`慈悲出祸害，方便出下流`
 
 + 关闭社交媒体，必要情况断网、断电话线；
 + 汇集问题列表，集中问题处理；
   +  比如写作时，专注写作，最后添加外链；
 + 降低情境切换成本
  - 多屏操作：一屏阅读，一屏笔记 
- 
 ![](http://upload-images.jianshu.io/upload_images/982375-c876cea871303621.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240) 
-
++ 细分单个任务的时间颗粒度
+`大脑Hack:如果25分钟内不完成这份笔记，今天就不允许再去写它！`
 
 # 小结
 1. 知识是液体，要形成好的“液态网络”，最好的办法是让不同人、群体对同样的项目进行不断的碰撞与共享；
 2. 主题性、选择关注，刻意制造心流环境。
+3. 信息≠知识，只有经过大脑编译的信息才算知识！
