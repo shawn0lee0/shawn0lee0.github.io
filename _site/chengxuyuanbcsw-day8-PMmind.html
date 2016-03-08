@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    * Author:         BeiYuu
+    -->
+    <meta charset="utf-8" />
+    <title>《程序员编程思维训练》完结笔记 | shawn0lee0博客</title>
+    <meta name="author" content="BieYuu" />
+    <meta name="renderer" content="webkit">
+    <meta name="description" content="Lee's Blog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/css/default.css" type="text/css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <div class="home-menu">
+        <div class="home-icon-con">
+            <a class="home-menu-icon" href="/">ShawnLee</a>
+            <a class="home-follow" href="#" title="Contact Me">+</a>
+        </div>
+        <div class="home-contact">
+            <a href="http://weibo.com/shawn0lee0/" target="_blank" style="margin-left:-5px;"><img src="http://www.weibo.com/favicon.ico" alt="" width="25"/></a>
+            <a href="http://www.jianshu.com/users/8e3378a61627/timeline" target="_blank" style="text-align:center;"><img src="http://baijii-common.b0.upaiyun.com/icons/favicon.ico" alt="" width="22"/></a>
+            <a href="https://shawn0lee0.gitbooks.io/python-omooc2py/content/" target="_blank" style="text-align:right"><img src="http://shawn0lee0.github.io/images/icon/gitbook/favicon.ico" alt="" width="22"/></a>
+            <a href="https://github.com/shawn0lee0" target="_blank" style="text-align:right"><img src="http://shawn0lee0.github.io/images/icon/github/favicon.ico" alt="" width="22"/></a>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="/js/prettify/prettify.css" />
+<style type="text/css">
+    body { background:#e8e8e8; }
+    @media screen and (max-width: 750px){
+        body { background:#fff; }
+    }
+    @media screen and (max-width: 1020px){
+        body { background:#fff; }
+    }
+</style>
+
+<div id="content">
+    <div class="entry">
+        <h1 class="entry-title"><a href="/chengxuyuanbcsw-day8-PMmind" title="《程序员编程思维训练》完结笔记">《程序员编程思维训练》完结笔记</a></h1>
+        <p class="entry-date">2016-02-01</p>
+        <blockquote><p>范围：全书</p>
+
+<table>
+<thead>
+<tr>
+<th> 开始</th>
+<th> 更新（碎片） </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>   2016年2月1日08:52:41 </td>
+<td> 2016年2月1日16:53:20  </td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+
+<hr />
+
+<p>经过14天的阅读体验，汇总成文以飨读者。《程炼》此书阐述的问题有：</p>
+
+<ul>
+<li>大脑原理与bug,鼓励开发R思维</li>
+<li>活用敏捷方法，不要追求形式；</li>
+<li>告诉你如何制定目标；</li>
+<li>告诉你应该如何读书；</li>
+<li>告诉你如何学习、如何笔记；</li>
+<li>如何积累经验；</li>
+<li>如何构建环境观察知识内增长；</li>
+</ul>
+
+
+<p>本书的遗憾：</p>
+
+<ul>
+<li>提出了的问题所在，但没有给出解决方案；</li>
+<li>一直强调情境思维，但是没有细化，案例太少；</li>
+<li>隐喻概念还是偏程序猿理性思维，没有考虑读者的非理工背景；</li>
+</ul>
+
+
+<h2>认识你的大脑</h2>
+
+<p>把人脑比作电脑</p>
+
+<ul>
+<li><p>低主频CPU：普通计算机的CPU主频高达几Ghz，连小米手机都是4核2.5Ghz了。相比之下，人大脑最高主频才几Khz，不及小米手机千分之一。</p></li>
+<li><p>低内存：大部分手机有2G的内存，可以同时用来听音乐、下载电影和玩极品飞车等；但是根据Miller的研究，人大脑的工作记忆（相当于手机内存）最多只能同时处理5-9个条目（平均是7个--马云直属事业部也是7）。这意味着你几乎不可能同时专注好几件事情。</p></li>
+<li><p>小硬盘：很多电脑有1T（1024G）的存数量，但是大脑大致只能存储1G左右的数据，而且大部分还是无法被我们有意识地访问的。</p></li>
+<li><p>低功耗：超级计算机“红杉”有8兆瓦的功率，相当于16万个家庭的用电量；而更强运算能力的人脑只有20瓦功率，只相当于一盏点灯。</p></li>
+<li><p>冲突的总线：电脑数据靠铜导线传输，速度快、性能稳定、传输数据量大；而相比之下，人类神经元不断漏电、信息传输失误多、数据量小，还经常冲突。</p></li>
+</ul>
+
+
+<p><strong>纳尼~这么low的配置怎么改变世界呢？？</strong></p>
+
+<blockquote><p>神经学专家保罗.麦克里恩曾经提出著名的“3大大脑”的假设—按照进化的先后，人类大脑分为3大不同的功能区，并且相对独立地运行：</p></blockquote>
+
+<ul>
+<li><p>爬行脑：最先被进化出来的部分（爬行动物就有），控制人的吃饭、性等几乎所有欲望和本能，也掌管着人类大部分的决策。它是呆板、冲动、缺乏远见并渴望立刻满足的。</p></li>
+<li><p>边缘系统：后来被进化出的部分，保护下丘脑、海马状突起和杏仁核体，控制人的情绪、情感和长期记忆，它决定了“喜欢什么”和“不喜欢什么”。它规避危险，情绪化。</p></li>
+<li><p>新皮层：最后被进化出来的部分，包括左右两个脑半球，控制思维、语言、想象力等所有的“高级”功能。（L/R型思维）</p></li>
+</ul>
+
+
+<p><img src="http://upload-images.jianshu.io/upload_images/982375-3e421f095a906e7d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图 文中有彩蛋" /></p>
+
+<h2>一、产品狗的基本功</h2>
+
+<ul>
+<li><p>输入：</p>
+
+<ul>
+<li>看过行业中70%竞品，形成了对行业竞品的直觉思考；</li>
+<li>拜访过行业中top20巨头中的至少五家公司及其CEO，明白媒体报道之外的更多内隐知识</li>
+<li>每周至少实际访谈与接触一位实际用户，并在不同产品周期与不同数量的用户交朋友；</li>
+<li>博览群书，优秀设计，配色等；</li>
+</ul>
+</li>
+<li><p>过滤：</p>
+
+<ul>
+<li>拥有较高的信息架构设计能力，能够将看似很个性的需求整合到一个简单清晰的信息架构之下；</li>
+<li>经常在头脑中推演各类不同用户交互与用户使用可能，提前发现产品逻辑可以再打磨的地方；</li>
+<li>善于排优先级，能确定需求的关键次序</li>
+<li>审美品位好，能够减轻设计师程序员反复修改的时间</li>
+</ul>
+</li>
+<li><p>输出：</p>
+
+<ul>
+<li>沟通类：生成备忘录，提炼真实需求；</li>
+<li>阅读类：生成读书笔记，主动驱动需求；</li>
+<li>段子、诗歌：力求风趣、通俗易懂；</li>
+</ul>
+</li>
+<li><p>补充：</p>
+
+<ul>
+<li>养心
+
+<ul>
+<li>顶住各方伪需求</li>
+<li>修改需求的吐槽</li>
+</ul>
+</li>
+<li>修身：<code>工作日程：周一、周二、周三、周三、周五、周五、周五！</code></li>
+</ul>
+</li>
+</ul>
+
+
+<h2>二、修炼|输入篇：</h2>
+
+<h5>认清你自己的阶段水平</h5>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/982375-4c185e1218c198ea.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="新手到专家" /></p>
+
+<blockquote><p>精通者，善于充分利用思考与反馈
++ 模仿
++ 吸收
++ 创新</p></blockquote>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:left;"> 技能        </th>
+<th style="text-align:center;"> 现阶段           </th>
+<th style="text-align:left;"> 下一步目标  </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;"> 产品调研     </td>
+<td style="text-align:center;"> 新手 </td>
+<td style="text-align:left;"> 同行功能、客户,信息挖掘效率提升（1小时完成相关素材收集） </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 竞品分析     </td>
+<td style="text-align:center;"> 新手 </td>
+<td style="text-align:left;"> 分析BD下载数量、业务流程、功能分类、界面布局、视觉呈现等，产品属性、公司背景、创始人产品经理背景，面基竞品 </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 需求提炼     </td>
+<td style="text-align:center;"> 新手 </td>
+<td style="text-align:left;"> 知道自己不知道什么，比什么都不知道要好 </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 文档输出     </td>
+<td style="text-align:center;"> 新手 </td>
+<td style="text-align:left;"> 模仿 </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 原型设计     </td>
+<td style="text-align:center;"> 新手 </td>
+<td style="text-align:left;"> 先手绘原型再工具 </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 数据分析    </td>
+<td style="text-align:center;"> 高新 </td>
+<td style="text-align:left;"> Python Data课程 ,统计学原理</td>
+</tr>
+<tr>
+<td style="text-align:left;"> 逻辑思考     </td>
+<td style="text-align:center;"> 胜任 </td>
+<td style="text-align:left;"> 提高阅读写作频率，文章内容干燥度，观察文章分享、评论数量 </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 沟通能力     </td>
+<td style="text-align:center;"> 胜任 </td>
+<td style="text-align:left;"> 我期望的结果是怎样的？我需要对方提供怎样的协助才能实现期望的结果？</td>
+</tr>
+<tr>
+<td style="text-align:left;"> 洞察力     </td>
+<td style="text-align:center;"> 高新 </td>
+<td style="text-align:left;"> <a href="https://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&amp;mid=204277318&amp;idx=1&amp;sn=ba7f9bf84dbb9275648c4416cc867298&amp;scene=1&amp;srcid=12315mHf4n3Hkl6Pf9pDKn4Y&amp;pass_ticket=L%2F2i7H4GSEBCmt20RHwWtp%2BCPJjRijCOocCxfDvC4zkIzOc5xDQgNfTnN4ee%2FdIm#rd">正念</a> ,向内探求生命的本质 </td>
+</tr>
+<tr>
+<td style="text-align:left;"> 项目管理     </td>
+<td style="text-align:center;"> 高新 </td>
+<td style="text-align:left;"> 化整为零，颗粒度尽可能小，每个部分之间尽可能保持独立。周计划、日计划，上午计划、时计划，番茄钟计划。对大目标进行解构，将问题分类，记录版本变更。 </td>
+</tr>
+</tbody>
+</table>
+
+
+<h5>改变|选择主题性阅读</h5>
+
+<blockquote><p>阳志平：最便宜的自我修炼是阅读；最容易产生心流体验的娱乐是写作。富人用钱买心流，超一流作家用心流买青史留名。读一本书的最好方法是开始读一本书；</p></blockquote>
+
+<ul>
+<li>主题阅读 （提倡不要把一本书从头读到尾）</li>
+</ul>
+
+
+<p><img src="http://upload-images.jianshu.io/upload_images/982375-633b4cd47202f8f8.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" /></p>
+
+<ul>
+<li> 关注自己的技能圈</li>
+<li>（总15本）确保哪些是和你的主题相关，并就你的主题建立清楚的概念</li>
+<li>（剩下10本）快速阅读，找出每本书相关的章节</li>
+<li> 列出一个中立的主旨，列出一连串的问题。比如用5W1H来进行提问</li>
+<li> 在每本书相关的章节里面寻找作者的观点，然后引用出来</li>
+<li> 界定主要和次要的议题</li>
+</ul>
+
+
+<h5>SQ3R阅读方法</h5>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/982375-0d4788d6fb037938.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="SQ3R方法" /></p>
+
+<p>清楚的认知到自己情况，找到某一技能薄弱点突破它，专注，攻克；</p>
+
+<h4>内化吸收，分享</h4>
+
+<blockquote><p>你能想到的点子，全中国估计有1万人能同时想到，然后有1千个人会动手去做，然后100个人会把事给做出来。所以点子不重要，重要的是你要比别人快、比别人好地把产品做出来。
+知识是液体，要形成好的“液态网络”，最好的办法是让不同人、群体对同样的项目进行不断的碰撞与共享</p></blockquote>
+
+<ul>
+<li>快速分享--身边人、群友（5分钟）介绍观点</li>
+<li>中度分享--10-15分钟，群分享：内容，重点是案例；</li>
+<li>深度分享：案例，外加个人经历，心得，面向对象分享</li>
+</ul>
+
+
+<h2>三、修炼|大脑的过滤器：</h2>
+
+<ul>
+<li>培养情境思维；</li>
+<li>构建反馈环境；</li>
+</ul>
+
+
+<h4>情境思维</h4>
+
+<ul>
+<li>详见<a href="http://www.jianshu.com/p/d2bdc6295bbe">用卡片训练R思维</a>
+<img src="http://upload-images.jianshu.io/upload_images/982375-7fec9bbb39e409fe.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" /></li>
+<li><a href="http://book.douban.com/subject/2157554/">构建角色模型</a>
+<img src="http://upload-images.jianshu.io/upload_images/982375-a3d5ce0a208797d3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" /></li>
+</ul>
+
+
+<h4>用[构建环境]方法改善沟通</h4>
+
+<ul>
+<li><a href="http://www.jianshu.com/p/e36a9ee295ed">构建一个虚拟假想环境</a></li>
+<li>环境要求：安全地探索、创造、应用</li>
+<li>适合自己的虚拟空间</li>
+<li>自由实验--出了问题，卸载重来</li>
+<li>快速返回稳定版本</li>
+<li>回到可以运行的版本</li>
+<li>进展可视化</li>
+</ul>
+
+
+<blockquote><p>沟通并不是“简单把信息告诉别人”，而是预测别人的行动，并且提前影响别人，以达到你想要的效果。
+沟通结束之前，需要不停地问自己：
+对方听了我刚刚的一番话，最终最有可能怎么做？这种结果是我想要的吗？如果不是，我如何现在通过沟通来改变这种结果？
+沟通结束前，我们得先假设这次沟通是失败的，然后找出可能导致失败的原因。</p></blockquote>
+
+<p>举个栗子：
+从事硬件产品开发时，某款产品需要与供应商确定元器件选型，
+邮件：<code>您好，我们是XXX公司，我们正在开发一款产品需要一款LED，对应的参数balabala……请您提供支持</code>
+如果对方知道你公司名气，看在大牌的面子上，回复效率也许会高些，如果是不知名小公司，多半回复较慢甚至石沉大海。</p>
+
+<ul>
+<li><p><a href="http://www.jianshu.com/p/e36a9ee295ed">构建一个虚拟假想环境</a></p>
+
+<ul>
+<li>假设他收到邮件，他会回复的内容有啥？
+
+<ul>
+<li>销售人员收到邮件，邮件转到了FAE（技术支持）手上“好的，小李你跟踪下”</li>
+<li>直接回复了一份选型清单，还是需要我自己考虑，但是我仍不知道哪款是市场最佳供货产品。</li>
+<li>“这是我们推荐的产品XXXX”</li>
+</ul>
+</li>
+<li>这是我要的结果吗？如果不是，为什么不在初始邮件提出来！</li>
+</ul>
+</li>
+<li><p>针对每条原因提前想好对策，比如在邮件中加入这些内容：
+（1）明确回复要达到的要求：<code>针对我司需求，请提供1~2款市场主力产品，并提供相关产品对比报告(与竞品的优势)；</code>
+（2）让对方明确感受到这些要求。<code>提供标准的回复模板格式</code>
+（3）提高别人认真回复的动机。<code>这款产品的年产量大概XXX块，单板使用量大概XXX颗,您的回复将会影响采购部门的决策。</code>（换位思考：对方在乎的是量，互利互惠原则）
+（4）减少对方的人际顾虑。<code>如果某某产品XXX不能满足要求，请推荐最相近产品YYY</code>
+（5）打电话给对方确认这些内容的接受程度，防止对方没有仔细看邮件。<code>邮件结尾备注截止回复日期</code>（压力）</p></li>
+<li><p>再返回思考修改后的内容是我需要的吗？重复该模型，执行</p></li>
+</ul>
+
+
+<h4><a href="http://mp.weixin.qq.com/s?__biz=MzA5NTMxOTczOA==&amp;mid=201711782&amp;idx=1&amp;sn=96a0f36d3019a0fedaf935bc63fc7572&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd">类比思维：清晰表达一个观点</a></h4>
+
+<blockquote><p>使用类比—你先推测出对方论断“背后的理论”是什么，然后问自己“如果这个理论成立，会出现哪些显而易见的不合常规的现象？”然后这种现象就可以拿来当做类比。</p></blockquote>
+
+<ul>
+<li>时间序列的类比</li>
+<li><code>电子书什么的一点也不爽</code></li>
+<li>类比<code>在造纸术刚出来时，也有人说纸书什么的不如绢帛来的爽~</code></li>
+<li>用对方熟悉的事物做类比</li>
+<li><code>所谓『智能硬件』是什么样的体验</code></li>
+<li>类比<code>在你还在用诺基亚3100的时候，有些人在用iPhone</code></li>
+<li>用类比转移到客观视角</li>
+<li><code>支付宝的生活圈晒视频是什么感觉</code></li>
+<li>类比：<code>在银行取钱时候，看到两个大妈在撒泼是什么感觉？</code></li>
+<li>引入比较对象</li>
+<li><code>支付宝做社交，简直就是玩笑~</code></li>
+<li>类比：<code>支付宝早期解决的个人与商家的支付问题，当人人都有支付宝后，你和朋友间借款转账试问还要跑到ATM机去吗？</code></li>
+</ul>
+
+
+<blockquote><p>很多时候你无法让别人理解你，只是因为你还没有让你的大道理足够“显而易见”。而一个重要的方法就是有效类比。</p></blockquote>
+
+<h3>刻意练习|主动求虐</h3>
+
+<ul>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA5NTMxOTczOA==&amp;mid=208796062&amp;idx=1&amp;sn=a700d18b13ea165431ea66e0056efe58&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd">为什么你有10年经验，但成不了专家？</a></li>
+<li><a href="http://mp.weixin.qq.com/s?__biz=MzA4ODM4ODQ3MQ==&amp;mid=402110590&amp;idx=1&amp;sn=761e30c58df8db57245ee6092e100017&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd">深度练习</a>，你是否有意挑战新高度来训练自己，积累更多技能，有更多心理、情绪和行为控制来应对更多局面。</li>
+</ul>
+
+
+<p>举例：早期[新手]做电路设计时，学习各种标准、指标、设计准则,单元测试，泡实验室（可靠性测试、EMC屏蔽）等等。几年下来，再返回来观察新人的作品，一眼就能发现EMI（电磁干扰）等问题，这个时候你的大脑[直觉]已经快速模拟了一遍电路运作过程。</p>
+
+<blockquote><p>一切练习，最终都是要把开始的慢速行为，变成不太需要思考的中速行为，最后变成下意识反应的快速行为，甚至是自动行为。</p></blockquote>
+
+<h2>四、修炼|输出篇</h2>
+
+<ul>
+<li>养成随时记录的习惯</li>
+<li>隐喻的应用--不会写段子的产品狗不是好狗；</li>
+<li>建立PKM(个人知识管理)，wiki</li>
+</ul>
+
+
+<h4>随时记录</h4>
+
+<ul>
+<li>Fieldstone方法（养成收集思维卵石的习惯）
+
+<ul>
+<li>不关注计划收集石头（材料）</li>
+<li> 只需要到处走走</li>
+<li> 收集好看的石头背用（建立素材库）</li>
+<li> 挑选收集的石头，构建，组合，堆砌造墙</li>
+</ul>
+</li>
+</ul>
+
+
+<h4>隐喻|段子手</h4>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/982375-c6a345c0035137e9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="" />
+还记得文章开头，那幅图片的文字吗？映像最深的是“开智学堂”还是“鸭脖子”？
+So，好的段子应该是视觉化（画面感）的~~~</p>
+
+<p>例如：</p>
+
+<p>描述杭州西湖景点的名字</p>
+
+<ul>
+<li>苏堤春晓</li>
+<li>曲院风荷</li>
+<li>平湖秋月</li>
+<li>断桥残雪</li>
+</ul>
+
+
+<p><img src="http://upload-images.jianshu.io/upload_images/982375-cbf155d8c233eb2c.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="杭州西湖 图片来源：陈饰玻璃工坊" /></p>
+
+<p><code>人生的减法：换掉乳牙是为了新牙；手指受伤了才会认真体验它的感受；迷路了，才看到不一样的风景；人生的减法只是加法的一横罢了</code></p>
+
+<p><code>老爷子练武十分刻苦，冬天坐火车去西伯利亚，穿着日本相扑的内裤，光着身子，左手拿着大茶缸，冰镇的酸梅汤，右手拿着大蒲扇，迎着风口唱：“这就是二，说也说不清楚…为此练得一身好本事，大冬天从湖上过去连个水星都不沾；曾白天练武，晚上为了防备敌人偷袭，装成植物埋伏在后院，半夜坏人来了，有顶着铁桶的，拿梯子的；</code></p>
+
+<h4>知识管理</h4>
+
+<p><img src="http://upload-images.jianshu.io/upload_images/982375-0bb1e43de85b65d1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片来源Python大妈：Zoom.quiet" />
+获取知识最大的阻碍并不是无知，而是对知识的幻觉—觉得自己很懂，觉得习惯了的就是正确的。
+整合资源越来越迅速的今天，与其守着自己有限的资源逡巡不前，不如敞开胸怀，<strong>让自己的知识积累充分地与世界连接，与更多的富有创新意识的头脑进行碰撞，进而产生强大的能量。</strong>
+<img src="http://upload-images.jianshu.io/upload_images/982375-fa5a918b38b9a61a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片来源Python大妈：Zoom.quiet" /></p>
+
+<ul>
+<li><strong>开源自己</strong></li>
+<li><strong>做一支蜡烛</strong></li>
+<li>燃烧自己</li>
+<li>自身亮度反观自己</li>
+<li>让蜡流动</li>
+</ul>
+
+
+<h2>五、参考内容来源</h2>
+
+<p>《阳志平：工作谈008  产品经理基本功》
+《伟大创意的诞生》
+《开智学堂微信公众号》
+《李叫兽的微信公众号》
+<a href="http://www.jianshu.com/p/11621814a799">《兰川：谈读书笔记》</a>
+<a href="http://www.jianshu.com/p/88bdb4b9daad">《亦周-理想的深度阅读方式》</a>
+<a href="http://i4.tietuku.com/5982587a7f1ba797.png">《程炼|思维导图笔记》</a></p>
+
+<h2>六、小结</h2>
+
+<p>1、刻意练习，使某一技能并达到专家级别，一旦成为某领域专家，在其他领域成为专家的成本非常低。
+2、做产品，别总是只跟L/R模型大脑（皮层）说话，试着多刺激本能（爬行脑）和情绪（边缘系统）说话啊！<code>微信红包的人性思考</code>
+3、执行！执行！！！执行！！！</p>
+
+    </div>
+
+    <div class="sidenav">
+        <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=0&noborder=0&isWeibo=0&isFans=0&uid=1045650001&verifier=09d0e2bb&dpc=1"></iframe>
+    </div>
+
+    <div class="sidenav">
+        <h2>Blog</h2>
+        <ul class="artical-list">
+        
+            <li><a href="/github-pages">【分享】使用Github Pages建独立博客</a></li>
+        
+            <li><a href="/why-blog">【分享】我为什么写博客？</a></li>
+        
+        </ul>
+
+        <h2>Opinion</h2>
+        <ul class="artical-list">
+        
+            <li><a href="/xiuciganjue-day5">《修辞感觉》Day6</a></li>
+        
+            <li><a href="/xiuciganjue-day4">《修辞感觉》Day4</a></li>
+        
+            <li><a href="/xiuciganjue-day3">《修辞感觉》Day2</a></li>
+        
+            <li><a href="/xiuciganjue-day2">《修辞感觉》Day1</a></li>
+        
+            <li><a href="/shenduxuexi-day3">《深度学习的艺术》Day2--解码</a></li>
+        
+            <li><a href="/shenduxuexi-day2">《深度学习的艺术》Day2--解码</a></li>
+        
+            <li><a href="/shenduxuexi-day1">《深度学习的艺术》Day1提问</a></li>
+        
+            <li><a href="/xiuciganjue-day1">《修辞感觉》Day1</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day8-PMmind">《程序员编程思维训练》完结笔记</a></li>
+        
+            <li><a href="/tiwendeyishu">《提问的艺术》读书笔记</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day8">《程序员编程思维训练》Day8</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day8-master">《程序员编程思维训练》Day8</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day8-flow">《程序员编程思维训练》Day8</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day7">《程序员编程思维训练》Day7</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day6-study">《程序员编程思维训练》Day6</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day6-Card">《程序员编程思维训练》Day6</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day5">《程序员编程思维训练》Day5</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day4">《程序员编程思维训练》Day4</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day3">《程序员编程思维训练》Day3</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day2">《程序员编程思维训练》Day2</a></li>
+        
+            <li><a href="/chengxuyuanbcsw-day1">《程序员编程思维训练》Day1</a></li>
+        
+            <li><a href="/chengxuyuanbcsw">《程序员编程思维训练》Day0</a></li>
+        
+            <li><a href="/nengji">能技</a></li>
+        
+            <li><a href="/jiangren">匠人</a></li>
+        
+            <li><a href="/about-simplify">胡言乱语说简单</a></li>
+        
+        </ul>
+
+        <h2>Project</h2>
+        <ul class="artical-list">
+        
+            <li><a href="/weichatapp">微信应用号设计思考</a></li>
+        
+            <li><a href="/tabby">Tabby</a></li>
+        
+            <li><a href="/notty-notes">Notty Notes</a></li>
+        
+            <li><a href="/overapi-cheatsheet">OverAPI</a></li>
+        
+            <li><a href="/raining-in-chrome">听雨</a></li>
+        
+        </ul>
+    </div>
+</div>
+
+<script src="/js/post.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript">
+        $(function(){
+            $('.home-follow').click(function(e){
+                e.preventDefault();
+
+                if($('.home-contact').is(':visible')){
+                    $('.home-contact').slideUp(100);
+                }else{
+                    $('.home-contact').slideDown(100);
+                }
+            });
+        })
+    </script>
+</body>
+</html>
