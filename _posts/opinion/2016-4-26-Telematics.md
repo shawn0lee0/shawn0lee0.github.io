@@ -118,7 +118,7 @@ description: 车联网的前世今生
 
 自动驾驶分级
 
-![图自东方蒲 驾驶辅助和自动驾驶-分级讨论](http://7xrpqy.com1.z0.glb.clouddn.com/NHTSA%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E5%88%86%E7%BA%A7.jpg)
+![图自东方蒲驾驶辅助和自动驾驶-分级讨论](http://7xrpqy.com1.z0.glb.clouddn.com/NHTSA%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E5%88%86%E7%BA%A7.jpg)
 
 
 参考文章：
