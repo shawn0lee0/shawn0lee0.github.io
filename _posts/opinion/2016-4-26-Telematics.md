@@ -29,6 +29,22 @@ description: 车联网的前世今生
 [Video： GAME ON: CITY HOSTS A VIRTUAL MINI GETAWAY](https://www.lsnglobal.com/seed/article/2836/game-on-city-hosts-a-virtual-mini-getaway)
 这是MINI车搞得营销活动，玩家下载官方APP，在地图上找到“虚拟MINI” 跑到它附近后可点下一个气球，随即出现“GET AWAY”画面，玩家成为了下一个“虚拟MINI”，快跑，别被抢到。但不能跑出市区。如果你持有“虚拟MINI”七天以上，将会获得一辆真实的MINI countryman.
 
+#### 车联网生态体系竞争：
+
+技术层：
+解决硬件兼容、网络连接、设备互联，界面交互，语音等基础问题；
+
+
+资源层：
+关注音乐、视频、天气、地图、路况等内容的共享；
+
+应用层：
+关注APP聚集，市场；
+
+
+服务层：
+核心点，服务随时随地，随心所谓，应用流；
+
 
 ## 车联网产品方法论
 
@@ -114,13 +130,50 @@ description: 车联网的前世今生
 
 
 
+
 ## 自动驾驶
 
 自动驾驶分级
 
 ![图自东方蒲驾驶辅助和自动驾驶-分级讨论](http://7xrpqy.com1.z0.glb.clouddn.com/NHTSA%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E5%88%86%E7%BA%A7.jpg)
 
+一张图读懂自动驾驶产业链
+![](http://ww1.prweb.com/prfiles/2016/06/08/13472308/Source_Vision_Systems_Intelligence_Infographic.JPG)
+- [深度：一张图看清自动驾驶产业](http://www.leiphone.com/news/201606/QUGoK5cKNFf9Z8oQ.html)
 
 参考文章：
 
 + [读懂NHTSA自动驾驶分级 | 朱玉龙专栏](http://www.cheyun.com/content/10421)
+
+
+## 庄家之争，谁主沉浮
+
+黑莓：QNX平台
+
++ 车载系统60%占有率
++ 在此平台基础上构建界面
++ 侧重技术层、资源层建设
++ 服务层初涉猎；
+
+微软：WINCE至WIN8CC
+
+> Windows connect car 简称W8CC
+
++ 微软Azure云平台优势，主打应用、服务层；
++ [准开源Project Detroit](https://channel9.msdn.com/coding4fun/articles/Project-Detroit-An-Overview)
++ 太贵、太慢、难用|失去福特SYNC订单
+![](http://files.channel9.msdn.com/thumbnail/09615539-1a33-49f7-b438-ca1b9543d712.jpg)
+
+Linux：Tizen OS
+
++ 开源、嵌入式、深度定制
++ 稳定、可靠性高
++ 平台升级方便（类似智能手机）
++ 客户：捷豹路虎IVI(in-Vehicle-inforainment)系统
+
+> [瑞萨](http://cn.renesas.com/edge_ol/topics/17/index.jsp)电子高级经理吉田正康推测：在2016年至2018年间，车载信息平台有望迎来通用平台。实现平台通用之后，总BOM（物料清单）将更加精简，能够带动系统的单元，设计实现进化，关键技术在于以太网。目前车载信息平台有多重网络标准，而今后，都将以太网AVB(IEEE802.1audio/Video Bridging)所取代。
+
+
+苹果：iOS|Carplay
+
+苹果的模式是软硬件一体化，希望把中控台话语权掌握在自家手里。车厂决不允许其他三方修改自家UI，弱化自家品牌VI。车企口头答应加入Carplay阵营，但也是试水项目，害怕未来失去对中控台的控制权。
