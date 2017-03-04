@@ -5,8 +5,11 @@ pygments: true
 paginate: 8
 permalink: /:title
 
-title: shawn0lee0博客
+
+title: 李祥喝茶唠嗑の地方
 url: http://shawn0lee0.github.io/
 feed: /atom.xml
 author_info: <a href="http://shawn0lee0.github.io/">robo_one</a>
 port: 5001 
+
+encoding: UTF-8
