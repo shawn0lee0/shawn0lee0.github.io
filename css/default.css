@@ -84,17 +84,15 @@ pre ol{margin-left:25px;list-style-type:decimal;}
     background-position:50% 50%;
 }
 .blog .aside{
-    background-image:url(https://d233eq3e3p3cv0.cloudfront.net/max/1000/0*cF2i1ZosSP_UTJig.jpeg);
+    background-image:url(http://7xnbur.com1.z0.glb.clouddn.com/C360_2016-08-27-19-06-20-311.jpg?imageView2/0/format/png/interlace/1/q/75|imageslim);
 }
 .opinion .aside{
-    background-image:url(https://dnqgz544uhbo8.cloudfront.net/_/fp/img/bestof/june-2013.CaUUbO2jIECgCmldhmxCCA.jpg);
+    background-image:url(http://7xnbur.com1.z0.glb.clouddn.com/DSC_8134.JPG?imageView2/0/format/png/interlace/1/q/75|imageslim);
 }
 .project .aside{
-<<<<<<< HEAD
-    background-image:url('http://7xrpqy.com1.z0.glb.clouddn.com/C360_2017-01-01-16-53-10-541.jpg')
-=======
-    background-image:url('http://7xrpqy.com1.z0.glb.clouddn.com/C360_2017-01-01-16-53-10-541.jpg')
->>>>>>> d1b90cd8eb713dff50228ab9010022bf2ae2156c
+
+    background-image:url('http://7xrpqy.com1.z0.glb.clouddn.com/C360_2017-01-01-16-53-10-541.jpg?imageView2/0/format/png/interlace/1/q/75|imageslim')
+
 }
 .index-content .section { margin-left:30%; padding-top:80px; padding-right:15%; ;}
 
